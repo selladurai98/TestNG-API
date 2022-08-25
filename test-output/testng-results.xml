@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13605" started-at="2022-08-25T11:32:11Z" finished-at="2022-08-25T11:32:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13605" started-at="2022-08-25T11:32:11Z" finished-at="2022-08-25T11:32:25Z">
+      <class name="org.petstore.RestServices">
+        <test-method status="PASS" signature="addPet(int, java.lang.String)[pri:1, instance:org.petstore.RestServices@457e2f02]" name="addPet" duration-ms="4139" started-at="2022-08-25T11:32:11Z" data-provider="pet" finished-at="2022-08-25T11:32:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[256]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[siberian cat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPet -->
+        <test-method status="PASS" signature="addPet(int, java.lang.String)[pri:1, instance:org.petstore.RestServices@457e2f02]" name="addPet" duration-ms="2409" started-at="2022-08-25T11:32:15Z" data-provider="pet" finished-at="2022-08-25T11:32:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[257]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[himalayan cat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPet -->
+        <test-method status="PASS" signature="addPet(int, java.lang.String)[pri:1, instance:org.petstore.RestServices@457e2f02]" name="addPet" duration-ms="1485" started-at="2022-08-25T11:32:18Z" data-provider="pet" finished-at="2022-08-25T11:32:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[258]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[maine coon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPet -->
+        <test-method status="PASS" signature="retrievePet()[pri:2, instance:org.petstore.RestServices@457e2f02]" name="retrievePet" duration-ms="1902" started-at="2022-08-25T11:32:19Z" finished-at="2022-08-25T11:32:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrievePet -->
+        <test-method status="PASS" signature="updatePet()[pri:3, instance:org.petstore.RestServices@457e2f02]" name="updatePet" duration-ms="1727" started-at="2022-08-25T11:32:21Z" finished-at="2022-08-25T11:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePet -->
+        <test-method status="PASS" signature="findByStatus()[pri:4, instance:org.petstore.RestServices@457e2f02]" name="findByStatus" duration-ms="1925" started-at="2022-08-25T11:32:23Z" finished-at="2022-08-25T11:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findByStatus -->
+      </class> <!-- org.petstore.RestServices -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
